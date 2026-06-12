@@ -48,7 +48,7 @@ resource aws_instance my_instance {
 
 	count = 2
 	ami = "ami-0fe18bc3cfa53a248" # ububtu
-
+    user_data = file("install_nginx.sh")
 	instance_type = "t2.micro" # Instance Type
 
 	key_name = aws_key_pair.my_key_pair.key_name	# Key pair
