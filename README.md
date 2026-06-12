@@ -94,14 +94,3 @@ terraform apply 2>&1 | tee debug.log
 ```
 
 ---
-
-## Projects
-
-### Terraform with Ansible
-[Get it here](https://github.com/LondheShubham153/terraform-ansible-multi-env)
-
-### Terraform with GitHub
-[Get it here](https://github.com/Amitabh-DevOps/online_shop/tree/github-action/.github/workflows)
-
-### Terraform to EKS
-[Get it here](https://github.com/DevMadhup/Springboot-BankApp/tree/DevOps/Terraform/EKS-Deployment)
